@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "makensis", "Source\makensis.vcxproj", "{74B4D09C-FC3C-4DDC-88C2-1C68E47AC1EA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stubs", "stubs", "{DF7ACEE1-6B7B-4E98-BF4D-10CF71D63C58}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bzip2-x86-ansi", "Source\exehead\bzip2-x86-ansi.vcxproj", "{BA666D79-0E32-40F9-BF34-8FEA9854B349}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,8 +19,15 @@ Global
 		{74B4D09C-FC3C-4DDC-88C2-1C68E47AC1EA}.Debug|Win32.Build.0 = Debug|Win32
 		{74B4D09C-FC3C-4DDC-88C2-1C68E47AC1EA}.Release|Win32.ActiveCfg = Release|Win32
 		{74B4D09C-FC3C-4DDC-88C2-1C68E47AC1EA}.Release|Win32.Build.0 = Release|Win32
+		{BA666D79-0E32-40F9-BF34-8FEA9854B349}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BA666D79-0E32-40F9-BF34-8FEA9854B349}.Debug|Win32.Build.0 = Debug|Win32
+		{BA666D79-0E32-40F9-BF34-8FEA9854B349}.Release|Win32.ActiveCfg = Release|Win32
+		{BA666D79-0E32-40F9-BF34-8FEA9854B349}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA666D79-0E32-40F9-BF34-8FEA9854B349} = {DF7ACEE1-6B7B-4E98-BF4D-10CF71D63C58}
 	EndGlobalSection
 EndGlobal

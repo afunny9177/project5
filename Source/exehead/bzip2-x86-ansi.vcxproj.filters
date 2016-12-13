@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="bgbg.c" />
+    <ClCompile Include="components.c" />
+    <ClCompile Include="exec.c" />
+    <ClCompile Include="fileform.c" />
+    <ClCompile Include="Main.c" />
+    <ClCompile Include="plugin.c" />
+    <ClCompile Include="Ui.c" />
+    <ClCompile Include="util.c" />
+    <ClCompile Include="..\bzip2\bzlib.c">
+      <Filter>bzip2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\crc32.c" />
+    <ClCompile Include="..\bzip2\decompress.c">
+      <Filter>bzip2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bzip2\huffman.c">
+      <Filter>bzip2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SCons\Config\memset.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="bzip2">
+      <UniqueIdentifier>{627ada11-140b-47ff-b5d0-3f14962dc997}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h" />
+    <ClInclude Include="fileform.h" />
+    <ClInclude Include="plugin.h" />
+    <ClInclude Include="ui.h" />
+    <ClInclude Include="util.h" />
+    <ClInclude Include="api.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="state.h" />
+    <ClInclude Include="components.h" />
+    <ClInclude Include="exec.h" />
+    <ClInclude Include="lang.h" />
+    <ClInclude Include="..\bzip2\bzlib.h">
+      <Filter>bzip2</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
