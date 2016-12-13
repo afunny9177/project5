@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="7zip\7zGuids.cpp" />
+    <ClCompile Include="7zip\7zip\Common\OutBuffer.cpp" />
+    <ClCompile Include="7zip\7zip\Common\StreamUtils.cpp" />
+    <ClCompile Include="7zip\7zip\Compress\LZMA\LZMAEncoder.cpp" />
+    <ClCompile Include="7zip\7zip\Compress\LZ\LZInWindow.cpp" />
+    <ClCompile Include="7zip\7zip\Compress\RangeCoder\RangeCoderBit.cpp" />
+    <ClCompile Include="7zip\Common\Alloc.cpp" />
+    <ClCompile Include="7zip\Common\CRC.cpp" />
+    <ClCompile Include="build.cpp" />
+    <ClCompile Include="bzip2\blocksort.c" />
+    <ClCompile Include="bzip2\bzlib.c" />
+    <ClCompile Include="bzip2\compress.c" />
+    <ClCompile Include="bzip2\huffman.c" />
+    <ClCompile Include="clzma.cpp" />
+    <ClCompile Include="crc32.c" />
+    <ClCompile Include="DialogTemplate.cpp" />
+    <ClCompile Include="dirreader.cpp" />
+    <ClCompile Include="fileform.cpp" />
+    <ClCompile Include="growbuf.cpp" />
+    <ClCompile Include="icon.cpp" />
+    <ClCompile Include="lang.cpp" />
+    <ClCompile Include="lineparse.cpp" />
+    <ClCompile Include="makenssi.cpp" />
+    <ClCompile Include="manifest.cpp" />
+    <ClCompile Include="mmap.cpp" />
+    <ClCompile Include="Plugins.cpp" />
+    <ClCompile Include="ResourceEditor.cpp" />
+    <ClCompile Include="ResourceVersionInfo.cpp" />
+    <ClCompile Include="script.cpp" />
+    <ClCompile Include="ShConstants.cpp" />
+    <ClCompile Include="strlist.cpp" />
+    <ClCompile Include="tokens.cpp" />
+    <ClCompile Include="tstring.cpp" />
+    <ClCompile Include="utf.cpp" />
+    <ClCompile Include="util.cpp" />
+    <ClCompile Include="winchar.cpp" />
+    <ClCompile Include="writer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="7zip\7zip\Common\InBuffer.h" />
+    <ClInclude Include="7zip\7zip\Common\OutBuffer.h" />
+    <ClInclude Include="7zip\7zip\Common\StdAfx.h" />
+    <ClInclude Include="7zip\7zip\Common\StreamUtils.h" />
+    <ClInclude Include="7zip\7zip\Compress\LZMA\LZMA.h" />
+    <ClInclude Include="7zip\7zip\Compress\LZMA\LZMAEncoder.h" />
+    <ClInclude Include="7zip\7zip\Compress\LZMA\StdAfx.h" />
+    <ClInclude Include="7zip\7zip\Compress\LZ\BinTree\BinTree.h" />
+    <ClInclude Include="7zip\7zip\Compress\LZ\BinTree\BinTree2.h" />
+    <ClInclude Include="7zip\7zip\Compress\LZ\BinTree\BinTree3.h" />
+    <ClInclude Include="7zip\7zip\Compress\LZ\BinTree\BinTree4.h" />
+    <ClInclude Include="7zip\7zip\Compress\LZ\BinTree\BinTreeMain.h" />
+    <ClInclude Include="7zip\7zip\Compress\LZ\IMatchFinder.h" />
+    <ClInclude Include="7zip\7zip\Compress\LZ\LZInWindow.h" />
+    <ClInclude Include="7zip\7zip\Compress\LZ\StdAfx.h" />
+    <ClInclude Include="7zip\7zip\Compress\RangeCoder\RangeCoder.h" />
+    <ClInclude Include="7zip\7zip\Compress\RangeCoder\RangeCoderBit.h" />
+    <ClInclude Include="7zip\7zip\Compress\RangeCoder\RangeCoderBitTree.h" />
+    <ClInclude Include="7zip\7zip\Compress\RangeCoder\RangeCoderOpt.h" />
+    <ClInclude Include="7zip\7zip\Compress\RangeCoder\StdAfx.h" />
+    <ClInclude Include="7zip\7zip\ICoder.h" />
+    <ClInclude Include="7zip\7zip\IStream.h" />
+    <ClInclude Include="7zip\Common\Alloc.h" />
+    <ClInclude Include="7zip\Common\CRC.h" />
+    <ClInclude Include="7zip\Common\Defs.h" />
+    <ClInclude Include="7zip\Common\MyCom.h" />
+    <ClInclude Include="7zip\Common\MyUnknown.h" />
+    <ClInclude Include="7zip\Common\MyWindows.h" />
+    <ClInclude Include="7zip\Common\StdAfx.h" />
+    <ClInclude Include="build.h" />
+    <ClInclude Include="bzip2\bzlib.h" />
+    <ClInclude Include="cbzip2.h" />
+    <ClInclude Include="clzma.h" />
+    <ClInclude Include="compressor.h" />
+    <ClInclude Include="crc32.h" />
+    <ClInclude Include="czlib.h" />
+    <ClInclude Include="DialogTemplate.h" />
+    <ClInclude Include="dirreader.h" />
+    <ClInclude Include="fileform.h" />
+    <ClInclude Include="growbuf.h" />
+    <ClInclude Include="icon.h" />
+    <ClInclude Include="lang.h" />
+    <ClInclude Include="lineparse.h" />
+    <ClInclude Include="manifest.h" />
+    <ClInclude Include="mmap.h" />
+    <ClInclude Include="Platform.h" />
+    <ClInclude Include="Plugins.h" />
+    <ClInclude Include="ResourceEditor.h" />
+    <ClInclude Include="ResourceVersionInfo.h" />
+    <ClInclude Include="ShConstants.h" />
+    <ClInclude Include="strlist.h" />
+    <ClInclude Include="tchar.h" />
+    <ClInclude Include="tokens.h" />
+    <ClInclude Include="tstring.h" />
+    <ClInclude Include="uservars.h" />
+    <ClInclude Include="utf.h" />
+    <ClInclude Include="util.h" />
+    <ClInclude Include="winchar.h" />
+    <ClInclude Include="writer.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{74B4D09C-FC3C-4DDC-88C2-1C68E47AC1EA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>makensis</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;NSISCALL=__stdcall;MAKENSIS;_WIN32_IE=0x0500;COMPRESS_MF_BT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\config;..\externals\zlib128-dll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StackReserveSize>2097152</StackReserveSize>
+      <AdditionalDependencies>version.lib;shlwapi.lib;zdll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\externals\zlib128-dll\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
